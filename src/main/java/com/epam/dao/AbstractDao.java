@@ -196,5 +196,4 @@ public abstract class AbstractDao<T extends Identificator, K> implements DAO<T, 
         }
         return flag != 0 ? true : false;
     }
-
 }

@@ -1,0 +1,12 @@
+<Configuration status="debug" name="baeldung" packages="">
+    <Appenders>
+        <File name="fout" fileName="logs.log" append="true">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %m%nw</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+    <Root level="INFO">
+        <AppenderRef ref="fout"/>
+    </Root>
+</Configuration>

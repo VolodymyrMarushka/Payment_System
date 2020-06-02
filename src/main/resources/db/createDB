@@ -1,0 +1,67 @@
+-- create database `delivery-service`;
+-- use `delivery-service`;
+
+--    Category
+
+
+create table if not exists `category`
+(
+    id   bigint auto_increment not null,
+    name varchar(40) unique    not null,
+    primary key (id)
+);
+
+--    Supplier
+
+create table if not exists `supplier`
+(
+    id          bigint auto_increment not null,
+    companyName varchar(30) unique    not null,
+    primary key (id)
+);
+
+--    Product
+
+create table if not exists `product`
+(
+    id          bigint auto_increment not null,
+    name        varchar(40) unique    not null,
+    price       double                not null,
+    produced    timestamp default current_timestamp(),
+    expiration  timestamp             not null,
+    supplier_id int                   not null,
+    category_id int                   not null,
+    primary key (id),
+    foreign key (supplier_id) references `supplier` (id),
+    foreign key (category_id) references `category` (id)
+);
+
+--    Order
+
+create table if not exists `orders`
+(
+    id          bigint auto_increment                              not null,
+    address     varchar(50)                                        not null,
+    ordered     timestamp                                                   default current_timestamp(),
+    shipped     timestamp                                          not null,
+    delivered   timestamp                                          not null,
+    orderStatus enum ('new','hold','shipped','delivered','closed') not null default 'new',
+    primary key (id)
+);
+
+--    OrderLineItem
+
+create table if not exists `orderLineItem`
+(
+    id         bigint auto_increment not null,
+    amount     int                   not null,
+    order_id   int                   not null,
+    product_id int                   not null,
+    primary key (id),
+    foreign key (product_id) references `product` (id),
+    foreign key (order_id) references `order` (id)
+);
+
+
+
+

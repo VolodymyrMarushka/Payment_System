@@ -1,0 +1,76 @@
+create table `product`
+(
+    id         bigint auto_increment not null,
+    name       varchar               not null,
+    price      double                not null,
+    produced   timestamp             not null,
+    expiration timestamp             not null,
+    supplier   varchar               not null,
+    created    timestamp default current_timestamp(),
+    primary key (id)
+);
+
+insert into `product` (name, price, produced, expiration, supplier)
+values ('Bread', 12, '2020-03-23', '2020-03-30', 'Roshen'),
+       ('Milk', 11, '2020-03-23', '2020-03-30', 'Roshen');
+
+select *
+from `product`;
+
+select *
+from `product`
+where name = 'Bread';
+
+update `product`
+set price = 9.95
+where name = 'Bread';
+update `product`
+set supplier = 'Nestle'
+where name = 'Bread';
+
+delete
+from `product`
+where id = 2;
+
+-- ProductDaoH2 productDaoH2 = new ProductDaoH2();
+-- SupplierDaoH2 supplierDaoH2 = new SupplierDaoH2();
+-- supplierDaoH2.update(Supplier.builder().companyName("Gouda").id(3).build());
+-- Product product = new Product(5,"Chese",10.5, LocalDateTime.now(),LocalDateTime.now().plusMonths(3),Supplier.builder().companyName("Gouda").id(3).build());
+-- productDaoH2.create(product);
+
+
+-- Order
+-- #
+-- #
+-- create table if not exists `order` #
+-- (
+--     # id bigint auto_increment not null,
+--     #     address varchar (50) not null,
+--     #     ordered timestamp default current_timestamp (),
+--     #     shipped timestamp not null,
+--     #     delivered timestamp not null ,
+--     #     orderStatus_id int not null ,
+--     #     primary key (id),
+--     #     foreign key (orderStatus_id) references `orderStatus` (id)
+--     # );
+-- #
+-- # --    OrderStatus
+-- #
+-- #
+-- create table if not exists `orderStatus` #
+-- (
+--     # id bigint auto_increment not null ,
+--     #
+--     # );
+-- #
+-- # --    OrderLineItem
+-- #
+-- #
+-- create table if not exists `orderLineItem` #
+-- (
+--     # id bigint auto_increment not null ,
+--     #     amount int not null ,
+--     #     product_id int not null ,
+--     #     primary key (id),
+--     #     foreign key (product_id) references `product`(id)
+--     # )

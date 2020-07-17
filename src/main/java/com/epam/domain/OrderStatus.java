@@ -3,6 +3,9 @@ package com.epam.domain;
 
 public enum OrderStatus {
 
-    NEW,HOLD,SHIPPED,DELIVERED,CLOSED;
-
+    NEW,
+    HOLD,
+    SHIPPED,
+    DELIVERED,
+    CLOSED;
 }

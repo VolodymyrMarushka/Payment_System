@@ -7,14 +7,15 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Timestamp;
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
+
+import static com.epam.constant.daoQueries.OrderDAOQueries.*;
 
 public class OrderDaoH2 extends AbstractDao<Order,String> {
     @Override
     protected String getCreateQuery() {
-        return "Insert into `orders` ( address, ordered, shipped, delivered, orderStatus) values (?,?,?,?,?)";
+        return INSERT ;
     }
 
     @Override
@@ -66,7 +67,7 @@ public class OrderDaoH2 extends AbstractDao<Order,String> {
 
     @Override
     protected String getSelectByIdQuery() {
-        return "Select * from `orders` where `id` = ?";
+        return SELECT_BY_ID;
     }
 
     @Override
@@ -81,7 +82,7 @@ public class OrderDaoH2 extends AbstractDao<Order,String> {
 
     @Override
     protected String getSelectByKeyQuery() {
-        return "Select * from `orders` where `address` = ? ";
+        return SELECT_BY_KEY;
     }
 
     @Override
@@ -100,7 +101,7 @@ public class OrderDaoH2 extends AbstractDao<Order,String> {
 
     @Override
     protected String getUpdateQuery() {
-        return "Update `orders` set `address` = ?, ordered = ?, shipped = ?, delivered = ?, orderStatus = ? where `id` = ?";
+        return UPDATE;
     }
 
     @Override
@@ -114,22 +115,22 @@ public class OrderDaoH2 extends AbstractDao<Order,String> {
 
     @Override
     protected String getDeleteQuery() {
-        return "Delete from `orders` where `id` = ? ";
+        return DELETE_BY_ID;
     }
 
     @Override
     protected String getQueryForGetAll() {
-        return "Select * from `orders` ";
+        return SELECT_ALL;
     }
 
     @Override
     protected String getDeleteAllQuery() {
-        return "Delete  from `orders`";
+        return DELETE_ALL;
     }
 
     @Override
     protected String getTableName() {
-        return "Orders";
+        return TABLE_NAME;
     }
 
 }

@@ -1,6 +1,6 @@
 package com.epam.dao;
 
-import com.epam.domain.OrderLineItem;
+import com.epam.domain.OrderItem;
 import com.epam.domain.Product;
 
 import java.sql.PreparedStatement;
@@ -9,15 +9,17 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class OrderLineItemDaoH2 extends AbstractDao<OrderLineItem, Integer> {
+import static com.epam.constant.daoQueries.OrderLineItemDAOQueries.*;
+
+public class OrderLineItemDaoH2 extends AbstractDao<OrderItem, Integer> {
 
     @Override
     protected String getCreateQuery() {
-        return "Insert into `orderLineItem` (amount, order_id, product_id) values (?,?,?)";
+        return INSERT;
     }
 
     @Override
-    protected void setStatementForCreate(PreparedStatement pstm, OrderLineItem someObject) {
+    protected void setStatementForCreate(PreparedStatement pstm, OrderItem someObject) {
         try {
             pstm.setInt(1, someObject.getAmount());
             pstm.setInt(2, someObject.getOrderId());
@@ -28,12 +30,12 @@ public class OrderLineItemDaoH2 extends AbstractDao<OrderLineItem, Integer> {
     }
 
     @Override
-    protected List<OrderLineItem> parseResultSet(ResultSet rs) {
+    protected List<OrderItem> parseResultSet(ResultSet rs) {
 
-        List<OrderLineItem> orderLineItemList = new ArrayList<>();
+        List<OrderItem> orderLineItemList = new ArrayList<>();
         try {
             while (rs.next()) {
-                OrderLineItem orderLineItem = new OrderLineItem();
+                OrderItem orderLineItem = new OrderItem();
 
                 orderLineItem.setAmount(rs.getInt(2));
                 orderLineItem.setId(rs.getInt(1));
@@ -60,7 +62,7 @@ public class OrderLineItemDaoH2 extends AbstractDao<OrderLineItem, Integer> {
 
     @Override
     protected String getSelectByIdQuery() {
-        return "Select *  from `orderLineItem` where id = ?";
+        return SELECT_BY_ID;
     }
 
     @Override
@@ -74,11 +76,11 @@ public class OrderLineItemDaoH2 extends AbstractDao<OrderLineItem, Integer> {
 
     @Override
     protected String getSelectByKeyQuery() {
-        return "select * from `orderLineItem` where `order_id` = ?";
+        return SELECT_BY_KEY;
     }
 
     @Override
-    protected void setStatementForUpdate(PreparedStatement pstm, OrderLineItem object) {
+    protected void setStatementForUpdate(PreparedStatement pstm, OrderItem object) {
 
         try {
             pstm.setInt(1, object.getAmount());
@@ -92,11 +94,11 @@ public class OrderLineItemDaoH2 extends AbstractDao<OrderLineItem, Integer> {
 
     @Override
     protected String getUpdateQuery() {
-        return "Update `orderLineItem` set `amount` = ?, order_id = ?, product_id = ? where `id` = ?";
+        return UPDATE;
     }
 
     @Override
-    protected void setStatementForDelete(PreparedStatement pstm, OrderLineItem object) {
+    protected void setStatementForDelete(PreparedStatement pstm, OrderItem object) {
         try {
             pstm.setInt(1, object.getId());
         } catch (SQLException e) {
@@ -106,22 +108,22 @@ public class OrderLineItemDaoH2 extends AbstractDao<OrderLineItem, Integer> {
 
     @Override
     protected String getDeleteQuery() {
-        return "Delete from `orderLineItem` where `id` = ? ";
+        return DELETE_BY_ID;
     }
 
     @Override
     protected String getQueryForGetAll() {
-        return "select * from `orderLineItem`";
+        return SELECT_ALL;
     }
 
     @Override
     protected String getDeleteAllQuery() {
-        return "delete from `orderLineItem`";
+        return DELETE_ALL;
     }
 
     @Override
     protected String getTableName() {
-        return "orderLineItem";
+        return TABLE_NAME;
     }
 
 }

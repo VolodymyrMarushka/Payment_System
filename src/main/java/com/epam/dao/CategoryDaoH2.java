@@ -9,11 +9,13 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.epam.constant.daoQueries.CategoryDAOQueries.*;
+
 public class CategoryDaoH2 extends AbstractDao<Category, String> {
 
     @Override
     protected String getCreateQuery() {
-        return "Insert into `category` (name) values (?)";
+        return INSERT;
     }
 
     @Override
@@ -26,8 +28,9 @@ public class CategoryDaoH2 extends AbstractDao<Category, String> {
     }
 
     @Override
-    protected List parseResultSet(ResultSet rs) {
+    protected List<Category> parseResultSet(ResultSet rs) {
         List<Category> categories = new ArrayList<>();
+
         try {
             while (rs.next()) {
                 Category category = new Category();
@@ -52,7 +55,7 @@ public class CategoryDaoH2 extends AbstractDao<Category, String> {
 
     @Override
     protected String getSelectByIdQuery() {
-        return "Select *  from category where id = ?";
+        return SELECT_BY_ID;
     }
 
     @Override
@@ -66,7 +69,7 @@ public class CategoryDaoH2 extends AbstractDao<Category, String> {
 
     @Override
     protected String getSelectByKeyQuery() {
-        return "Select * from `category` where `name` = ?";
+        return SELECT_BY_KEY;
     }
 
     @Override
@@ -81,7 +84,7 @@ public class CategoryDaoH2 extends AbstractDao<Category, String> {
 
     @Override
     protected String getUpdateQuery() {
-        return "Update category set name = ? where id = ?";
+        return UPDATE;
     }
 
     @Override
@@ -95,22 +98,22 @@ public class CategoryDaoH2 extends AbstractDao<Category, String> {
 
     @Override
     protected String getDeleteQuery() {
-        return "Delete from category where id = ?";
+        return DELETE_BY_ID;
     }
 
     @Override
     protected String getQueryForGetAll() {
-        return "Select * from `category` ";
+        return SELECT_ALL;
     }
 
     @Override
     protected String getDeleteAllQuery() {
-        return "Delete from `category` ";
+        return DELETE_ALL;
     }
 
     @Override
     protected String getTableName() {
-        return "category";
+        return TABLE_NAME;
     }
 
 }

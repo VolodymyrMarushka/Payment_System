@@ -8,11 +8,13 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.epam.constant.daoQueries.SupplierDAOQueries.*;
+
 public class SupplierDaoH2 extends AbstractDao<Supplier, String> {
 
     @Override
     public String getCreateQuery() {
-        return "insert into `supplier` (companyName) values (?)";
+        return INSERT;
     }
 
     @Override
@@ -52,7 +54,7 @@ public class SupplierDaoH2 extends AbstractDao<Supplier, String> {
 
     @Override
     protected String getSelectByIdQuery() {
-        return "select * from `supplier` where id = ?";
+        return SELECT_BY_ID;
     }
 
     @Override
@@ -66,7 +68,7 @@ public class SupplierDaoH2 extends AbstractDao<Supplier, String> {
 
     @Override
     protected String getSelectByKeyQuery() {
-        return "select * from `supplier` where `companyName` = ?";
+        return SELECT_BY_KEY;
     }
 
     @Override
@@ -81,7 +83,7 @@ public class SupplierDaoH2 extends AbstractDao<Supplier, String> {
 
     @Override
     protected String getUpdateQuery() {
-        return "Update `supplier` set companyName = ? where id = ?";
+        return UPDATE;
     }
 
     @Override
@@ -95,22 +97,22 @@ public class SupplierDaoH2 extends AbstractDao<Supplier, String> {
 
     @Override
     protected String getDeleteQuery() {
-        return "delete from `supplier` where id = ?";
+        return DELETE_BY_ID;
     }
 
     @Override
     protected String getQueryForGetAll() {
-        return "Select * from supplier ";
+        return SELECT_ALL;
     }
 
     @Override
     protected String getDeleteAllQuery() {
-        return "Delete from `supplier` ";
+        return DELETE_ALL;
     }
 
     @Override
     protected String getTableName() {
-        return "Supplier";
+        return TABLE_NAME;
     }
 
 

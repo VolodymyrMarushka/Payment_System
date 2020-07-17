@@ -2,12 +2,10 @@ package com.epam.dao;
 
 
 import com.epam.domain.Category;
-import com.epam.domain.OrderLineItem;
+import com.epam.domain.OrderItem;
 import com.epam.domain.Product;
 import com.epam.domain.Supplier;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Order;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -15,9 +13,10 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class OrderLineItemDaoH2Test {
 
-    private DAO<OrderLineItem, Integer> orderLineItemDAO;
+    private DAO<OrderItem, Integer> orderLineItemDAO;
     private int amount;
     private int updatedAmount;
     private int order_id;  // todo order_id unique
@@ -42,8 +41,8 @@ public class OrderLineItemDaoH2Test {
     @Test
     @Order(1)
     public void CREATE_NONE_EXIST_ITEM() {
-        OrderLineItem item = new OrderLineItem(1, product, 2, 1);
-        OrderLineItem returned = orderLineItemDAO.create(item);
+        OrderItem item = new OrderItem(1, product, 2, 1);
+        OrderItem returned = orderLineItemDAO.create(item);
         assertEquals(amount, returned.getAmount());
         assertNotEquals(0, returned.getId());
     }
@@ -51,7 +50,7 @@ public class OrderLineItemDaoH2Test {
     @Test
     @Order(2)
     public void CREATE_EXIST_ITEM() {
-        OrderLineItem item = new OrderLineItem(1, product, 2, 1);
+        OrderItem item = new OrderItem(1, product, 2, 1);
         orderLineItemDAO.create(item);
     }
 
@@ -59,7 +58,7 @@ public class OrderLineItemDaoH2Test {
     @Order(3)
     public void READ_BY_EXIST_ID() {
         int id = 1;
-        OrderLineItem returned = orderLineItemDAO.readById(id);
+        OrderItem returned = orderLineItemDAO.readById(id);
         assertEquals(id, returned.getId());
         assertEquals(amount, returned.getAmount());
     }
@@ -76,7 +75,7 @@ public class OrderLineItemDaoH2Test {
     @Test
     @Order(5)
     public void READ_BY_EXIST_KEY() {
-        OrderLineItem returned = orderLineItemDAO.readByKey(order_id);
+        OrderItem returned = orderLineItemDAO.readByKey(order_id);
         assertEquals(order_id, returned.getOrderId());
         assertEquals(amount,returned.getAmount());
     }
@@ -93,11 +92,11 @@ public class OrderLineItemDaoH2Test {
     @Test
     @Order(7)
     public void UPDATE_EXIST_OBJECT() {
-        OrderLineItem item = orderLineItemDAO.readById(1);
+        OrderItem item = orderLineItemDAO.readById(1);
         item.setAmount(5);     // todo how to set for instance new Supplier
 
         orderLineItemDAO.update(item);
-        OrderLineItem returned = orderLineItemDAO.readByKey(1);
+        OrderItem returned = orderLineItemDAO.readByKey(1);
         updatedAmount = returned.getAmount();
         assertNotNull(returned);
         assertEquals(item.getAmount(), returned.getAmount());
@@ -106,7 +105,7 @@ public class OrderLineItemDaoH2Test {
     @Test
     @Order(8)
     public void UPDATE_NONE_EXIST_OBJECT() {
-        OrderLineItem item = new OrderLineItem(0,product,10,2);
+        OrderItem item = new OrderItem(0,product,10,2);
         boolean isUpdated = orderLineItemDAO.update(item);
         assertEquals(false, isUpdated);
     }
@@ -114,14 +113,14 @@ public class OrderLineItemDaoH2Test {
     @Test
     @Order(9)
     public void DELETE_EXIST_OBJECT() {
-        OrderLineItem item = orderLineItemDAO.readById(1);
+        OrderItem item = orderLineItemDAO.readById(1);
         assertEquals(true, orderLineItemDAO.delete(item));
     }
 
     @Test
     @Order(10)
     public void DELETE_NONE_EXIST_OBJECT() {
-        OrderLineItem item = new OrderLineItem(0,product,15,3);
+        OrderItem item = new OrderItem(0,product,15,3);
         assertEquals(false, orderLineItemDAO.delete(item));
     }
 
@@ -129,10 +128,10 @@ public class OrderLineItemDaoH2Test {
     @Order(11)
         public void GET_ALL() {
         DELETE_ALL();
-        List<OrderLineItem> items = new ArrayList<>();
+        List<OrderItem> items = new ArrayList<>();
         for (int i = 1; i <= 2; i++) {
-            items.add(new OrderLineItem(i, product, amount + i, i));
-            orderLineItemDAO.create(new OrderLineItem(i, product, amount + i, i));
+            items.add(new OrderItem(i, product, amount + i, i));
+            orderLineItemDAO.create(new OrderItem(i, product, amount + i, i));
         }
         assertEquals(items.size(),orderLineItemDAO.getAll().size());
     }

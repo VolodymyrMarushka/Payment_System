@@ -1,10 +1,8 @@
--- create database `delivery-service`;
--- use `delivery-service`;
+--  SET FOREIGN_KEY_CHECKS = 0;
 
 --    Category
 
-
-create table if not exists `category`
+CREATE TABLE IF NOT EXISTS `category`
 (
     id   bigint auto_increment not null,
     name varchar(40) unique    not null,
@@ -13,20 +11,20 @@ create table if not exists `category`
 
 --    Supplier
 
-create table if not exists `supplier`
+CREATE TABLE IF NOT EXISTS `supplier`
 (
     id          bigint auto_increment not null,
     companyName varchar(30) unique    not null,
     primary key (id)
 );
 
---    Product
+--    Product, all keywords in UPPERCASE
 
-create table if not exists `product`
+CREATE TABLE IF NOT EXISTS `product`
 (
     id          bigint auto_increment not null,
     name        varchar(40) unique    not null,
-    price       double                not null,
+    price       DECIMAL                not null,
     produced    timestamp default current_timestamp(),
     expiration  timestamp             not null,
     supplier_id int                   not null,
@@ -40,12 +38,12 @@ create table if not exists `product`
 
 create table if not exists `orders`
 (
-    id          bigint auto_increment                              not null,
-    address     varchar(50)                                        not null,
-    ordered     timestamp                                                   default current_timestamp(),
-    shipped     timestamp                                          not null,
-    delivered   timestamp                                          not null,
-    orderStatus enum ('new','hold','shipped','delivered','closed') not null default 'new',
+    id            bigint auto_increment                              not null,
+    address       varchar(50)                                        not null,
+    ordered       timestamp                                                   default current_timestamp(),
+    shipped       timestamp                                          not null,
+    delivered     timestamp                                          not null,
+    orderStatus   enum ('new','hold','shipped','delivered','closed') not null default 'new',
     primary key (id)
 );
 
@@ -59,7 +57,7 @@ create table if not exists `orderLineItem`
     product_id int                   not null,
     primary key (id),
     foreign key (product_id) references `product` (id),
-    foreign key (order_id) references `order` (id)
+    foreign key (order_id) references `orders` (id)
 );
 
 

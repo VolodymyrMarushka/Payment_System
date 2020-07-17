@@ -19,7 +19,7 @@ public class Order implements Identificator {
     private int id;
     private OrderStatus status;
     private String address;
-   // private Set<OrderLineItem> items = new LinkedHashSet<>();
+    //private Set<OrderLineItem> items = new LinkedHashSet<>();
     private LocalDateTime ordered;
     private LocalDateTime shipped;
     private LocalDateTime delivered;

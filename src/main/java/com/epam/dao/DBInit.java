@@ -7,6 +7,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
+import static com.epam.constant.URIConstants.*;
+
 public class DBInit {
 
     private static String url;
@@ -24,16 +26,16 @@ public class DBInit {
 
         properties.load(new FileInputStream(path));
 
-        url = properties.getProperty("url");
-        driver = properties.getProperty("driver");
-        user = properties.getProperty("user");
-        password = properties.getProperty("password");
-        script = properties.getProperty("script");
-        mode = properties.getProperty("mode");
+        url = properties.getProperty(URL);
+        driver = properties.getProperty(DRIVER);
+        user = properties.getProperty(USER);
+        password = properties.getProperty(PASSWORD);
+        script = properties.getProperty(SCRIPT);
+        mode = properties.getProperty(MODE);
 
     }
 
-    public static Connection getConection() {
+    public static Connection getConnection() {
 
         Connection connection = null;
         try {

@@ -1,41 +1,36 @@
 package com.epam.dao;
 
 import com.epam.domain.Order;
-import com.epam.domain.OrderLineItem;
 import com.epam.domain.OrderStatus;
-import com.epam.domain.Product;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class OrderDaoH2Test {
-//todo  fix a named package conflict
     private DAO<com.epam.domain.Order, String> orderDAO;
     private String address;
     private LocalDateTime ordered;
     private LocalDateTime shipped;
     private LocalDateTime delivered;
     private OrderStatus ordersStatus;
-    // todo fix problem with Set<OrderLineItem>
-    //private Set<OrderLineItem> items;
-    private String updateAddress;
     private OrderStatus updatedOrderStatus;
 
     @BeforeEach
     public void init() {
         orderDAO = new OrderDaoH2();
         address = "Some address";
-        ordered = LocalDateTime.of(2020,05,20,12,15);
+        ordered = LocalDateTime.of(2020, 05, 20, 12, 15);
         shipped = ordered.plusHours(2);
         delivered = shipped.plusHours(1);
         ordersStatus = OrderStatus.NEW;
-        //items.add(new OrderLineItem(1,new Product(),3,2));
     }
 
     @Test
@@ -48,7 +43,7 @@ public class OrderDaoH2Test {
     @Test
     @org.junit.jupiter.api.Order(1)
     public void CREATE_NONE_EXIST_ORDER() {
-        Order order = new Order(0, ordersStatus, address, /*items,*/ ordered, shipped, delivered);
+        Order order = new Order(0, ordersStatus, address, ordered, shipped, delivered);
         Order returned = orderDAO.create(order);
         assertNotEquals(0, returned.getId());
     }
@@ -56,7 +51,7 @@ public class OrderDaoH2Test {
     @Test
     @org.junit.jupiter.api.Order(2)
     public void CREATE_EXIST_ORDER() {
-        Order order = new Order(0, ordersStatus, address, /*items,*/ ordered, shipped, delivered);
+        Order order = new Order(0, ordersStatus, address, ordered, shipped, delivered);
         assertThrows(DaoException.class, () -> {
             orderDAO.create(order);
         });
@@ -100,7 +95,7 @@ public class OrderDaoH2Test {
     @org.junit.jupiter.api.Order(7)
     public void UPDATE_EXIST_OBJECT() {
         Order order = orderDAO.readByKey(address);
-        order.setStatus(OrderStatus.SHIPPED);
+        order.setStatus(OrderStatus.DELIVERED);
 
         orderDAO.update(order);
 
@@ -113,7 +108,7 @@ public class OrderDaoH2Test {
     @Test
     @org.junit.jupiter.api.Order(8)
     public void UPDATE_NONE_EXIST_OBJECT() {
-        Order order = new Order(0, ordersStatus, address, /*items,*/ ordered, shipped, delivered);
+        Order order = new Order(0, ordersStatus, address, ordered, shipped, delivered);
         boolean isUpdated = orderDAO.update(order);
         assertEquals(false, isUpdated);
     }
@@ -121,7 +116,7 @@ public class OrderDaoH2Test {
     @Test
     @org.junit.jupiter.api.Order(9)
     public void DELETE_EXIST_OBJECT() {
-        Order order = new Order(1, updatedOrderStatus, address, /*items,*/ ordered, shipped, delivered);
+        Order order = new Order(1, updatedOrderStatus, address, ordered, shipped, delivered);
         assertEquals(true, orderDAO.delete(order));
     }
 
@@ -139,9 +134,9 @@ public class OrderDaoH2Test {
         List<Order> orders = new ArrayList<>();
 
         for (int i = 1; i < 5; i++) {
-            orders.add(new Order(i, ordersStatus, address + i, /*items,*/ ordered.plusHours(i), shipped.plusHours(i + 1)
+            orders.add(new Order(i, ordersStatus, address + i, ordered.plusHours(i), shipped.plusHours(i + 1)
                     , delivered.plusHours(i + 2)));
-            orderDAO.create(new Order(i, ordersStatus, address + i, /*items,*/ ordered.plusHours(i), shipped.plusHours(i + 1)
+            orderDAO.create(new Order(i, ordersStatus, address + i, ordered.plusHours(i), shipped.plusHours(i + 1)
                     , delivered.plusHours(i + 2)));
         }
         assertEquals(orders, orderDAO.getAll());

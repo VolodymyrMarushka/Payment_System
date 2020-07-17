@@ -46,23 +46,23 @@ public abstract class AbstractDao<T extends Identificator, K> implements DAO<T, 
         logger.info("Start creating object");
         String insert = getCreateQuery();
         String lastIdQuery = "SELECT LAST_INSERT_ID()";
-        try (Connection connection = DBInit.getConection()) {
+        try (Connection connection = DBInit.getConnection()) {
 
             PreparedStatement pstm = connection.prepareStatement(insert);
             setStatementForCreate(pstm, someObject);
             pstm.executeUpdate();
-
             Statement stm = connection.createStatement();
+
             ResultSet rs = stm.executeQuery(lastIdQuery);
             rs.next();
             int id = rs.getInt(1);
             someObject.setId(id);
-            logger.info("Object seved to DB");
+            logger.info("Object saved to DB");
+            return someObject;
         } catch (Exception e) {
             logger.error(e.getMessage());
             throw new DaoException(e.getMessage());
         }
-        return someObject;
     }
 
     @Override
@@ -71,7 +71,7 @@ public abstract class AbstractDao<T extends Identificator, K> implements DAO<T, 
         String read = getSelectByIdQuery();
 
         List<T> objects = new ArrayList<>();
-        try (Connection connection = DBInit.getConection()) {
+        try (Connection connection = DBInit.getConnection()) {
             PreparedStatement pstm = connection.prepareStatement(read);
             setStatementForId(pstm, id);
             ResultSet rs = pstm.executeQuery();
@@ -94,19 +94,18 @@ public abstract class AbstractDao<T extends Identificator, K> implements DAO<T, 
         String query = getSelectByKeyQuery();
         List<T> objects = new ArrayList<>();
 
-        try (Connection cn = DBInit.getConection()) {
+        try (Connection cn = DBInit.getConnection()) {
             PreparedStatement pstm = cn.prepareStatement(query);
             setStatementForKey(pstm, key);
             ResultSet rs = pstm.executeQuery();
             objects = parseResultSet(rs);
-            if (objects.isEmpty()) {
-                throw new Exception("Object not found ");
-            }
+
             logger.info("Object is got by key");
         } catch (Exception e) {
             logger.error(e.getMessage());
             throw new DaoException(e.getMessage());
         }
+        if (objects.isEmpty()) throw new DaoException();
 
         return objects.get(0);
     }
@@ -117,7 +116,7 @@ public abstract class AbstractDao<T extends Identificator, K> implements DAO<T, 
         String query = getUpdateQuery();
         int status;
 
-        try (Connection connection = DBInit.getConection()) {
+        try (Connection connection = DBInit.getConnection()) {
             PreparedStatement pstm = connection.prepareStatement(query);
             setStatementForUpdate(pstm, object);
             status = pstm.executeUpdate();
@@ -135,7 +134,7 @@ public abstract class AbstractDao<T extends Identificator, K> implements DAO<T, 
         logger.info("Start deleting object");
         String delete = getDeleteQuery();
         int deleted;
-        try (Connection cn = DBInit.getConection()) {
+        try (Connection cn = DBInit.getConnection()) {
             PreparedStatement pstm = cn.prepareStatement(delete);
             setStatementForDelete(pstm, object);
             deleted = pstm.executeUpdate();
@@ -154,7 +153,7 @@ public abstract class AbstractDao<T extends Identificator, K> implements DAO<T, 
         List<T> objects = new ArrayList<>();
         String query = getQueryForGetAll();
 
-        try (Connection cn = DBInit.getConection()) {
+        try (Connection cn = DBInit.getConnection()) {
             logger.info("Start getting objects from DB");
             PreparedStatement pstm = cn.prepareStatement(query);
             ResultSet rs = pstm.executeQuery();
@@ -173,7 +172,7 @@ public abstract class AbstractDao<T extends Identificator, K> implements DAO<T, 
         String tableName = getTableName();
         int flag;
 
-        try (Connection cn = DBInit.getConection()) {
+        try (Connection cn = DBInit.getConnection()) {
             Statement statement = cn.createStatement();
             Statement statement1 = cn.createStatement();
             ResultSet rs = statement.executeQuery("SELECT COUNT(*) FROM `" + tableName + "`");
@@ -188,12 +187,13 @@ public abstract class AbstractDao<T extends Identificator, K> implements DAO<T, 
                 if (flag != 0) {
                     logger.info("Objects were deleted!");
                 } else logger.info("Something wrong with deleting objects!");
+
             }
 
         } catch (Exception e) {
             logger.error(e.getMessage());
             throw new DaoException(e.getMessage());
         }
-        return flag != 0 ? true : false;
+        return flag != 0;
     }
 }

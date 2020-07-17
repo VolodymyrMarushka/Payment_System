@@ -10,11 +10,16 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class OrderLineItem implements Identificator {
+public class OrderItem implements Identificator {
 
     private int id;
     private Product product;
-    private int amount;
     private int orderId;
 
 }
+
+/*
+* product price
+*
+*
+* */

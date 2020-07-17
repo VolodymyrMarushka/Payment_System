@@ -1367,3 +1367,1471 @@ Select from `orders`  [42001-199]
 2020-06-02 18:38:45 INFO     AbstractDao  create  :60 -- Object seved to DB
 2020-06-02 18:38:46 INFO     AbstractDao  getAll  :158 -- Start getting objects from DB
 2020-06-02 18:38:46 INFO     AbstractDao  getAll  :162 -- Objects are recived 
+2020-06-02 21:55:35 INFO     AbstractDao  deleteAll  :171 -- Start deleting all objects!
+2020-06-02 21:55:36 INFO     AbstractDao  deleteAll  :189 -- Objects were deleted!
+2020-06-02 21:55:36 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-02 21:55:37 ERROR    AbstractDao  readByKey  :107 -- Object not found 
+2020-06-02 21:55:37 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-02 21:55:37 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-02 21:55:37 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-02 21:55:37 INFO     AbstractDao  readByKey  :105 -- Object is got by key
+2020-06-02 21:55:37 INFO     AbstractDao  delete  :135 -- Start deleting object
+2020-06-02 21:55:37 INFO     AbstractDao  delete  :142 -- Object is deleted
+2020-06-02 21:55:37 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-02 21:55:38 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-02 21:55:38 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-02 21:55:38 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-02 21:55:38 INFO     AbstractDao  deleteAll  :171 -- Start deleting all objects!
+2020-06-02 21:55:38 INFO     AbstractDao  deleteAll  :189 -- Objects were deleted!
+2020-06-02 21:55:38 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-02 21:55:38 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-02 21:55:39 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-02 21:55:39 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-02 21:55:39 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-02 21:55:39 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-02 21:55:39 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-02 21:55:39 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-02 21:55:39 INFO     AbstractDao  getAll  :158 -- Start getting objects from DB
+2020-06-02 21:55:39 INFO     AbstractDao  getAll  :162 -- Objects are recived 
+2020-06-02 21:55:40 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-02 21:55:40 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-02 21:55:40 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-02 21:55:40 ERROR    AbstractDao  readByKey  :107 -- Object not found 
+2020-06-02 21:55:40 INFO     AbstractDao  update  :116 -- Updating object
+2020-06-02 21:55:40 INFO     AbstractDao  update  :124 -- Object is updated
+2020-06-02 21:55:40 INFO     AbstractDao  delete  :135 -- Start deleting object
+2020-06-02 21:55:40 INFO     AbstractDao  delete  :142 -- Object is deleted
+2020-06-02 21:55:56 INFO     AbstractDao  deleteAll  :171 -- Start deleting all objects!
+2020-06-02 21:55:57 INFO     AbstractDao  deleteAll  :189 -- Objects were deleted!
+2020-06-02 21:56:05 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-02 21:56:06 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-02 21:57:02 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-02 21:57:03 INFO     AbstractDao  readByKey  :105 -- Object is got by key
+2020-06-02 21:57:03 INFO     AbstractDao  update  :116 -- Updating object
+2020-06-02 21:57:03 INFO     AbstractDao  update  :124 -- Object is updated
+2020-06-02 21:57:03 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-02 21:57:03 INFO     AbstractDao  readByKey  :105 -- Object is got by key
+2020-06-02 21:58:03 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-02 21:58:04 INFO     AbstractDao  readByKey  :105 -- Object is got by key
+2020-06-02 21:58:04 INFO     AbstractDao  update  :116 -- Updating object
+2020-06-02 21:58:04 INFO     AbstractDao  update  :124 -- Object is updated
+2020-06-02 21:58:05 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-02 21:58:05 INFO     AbstractDao  readByKey  :105 -- Object is got by key
+2020-06-05 23:49:37 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-05 23:49:38 ERROR    AbstractDao  readByKey  :107 -- Object not found 
+2020-06-05 23:51:31 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-05 23:51:31 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-05 23:51:32 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-05 23:51:32 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-05 23:51:32 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-05 23:51:32 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-05 23:51:33 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-05 23:51:33 ERROR    AbstractDao  create  :62 -- Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.CATEGORY(ID) [1, 'UpdateCategory']"; SQL statement:
+Insert into `category` (name) values (?) [23505-199]
+2020-06-05 23:54:42 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-05 23:54:43 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-05 23:54:43 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-05 23:54:43 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-05 23:54:43 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-05 23:54:44 ERROR    AbstractDao  create  :62 -- Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.CATEGORY(ID) [2, 'Test Category']"; SQL statement:
+Insert into `category` (name) values (?) [23505-199]
+2020-06-05 23:56:04 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-05 23:56:05 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-05 23:56:05 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-05 23:56:05 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-05 23:56:05 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-05 23:56:05 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-05 23:56:05 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-05 23:56:06 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-06 00:11:31 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-06 00:11:32 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-06 00:11:32 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-06 00:11:32 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-06 00:11:33 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-06 00:11:33 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-06 00:11:33 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-06 00:11:33 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-06 00:11:33 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-06 00:11:33 ERROR    AbstractDao  create  :62 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_1 ON PUBLIC.PRODUCT(NAME) VALUES 2"; SQL statement:
+insert into `product` (name,price,produced,expiration,supplier_id, category_id) VALUES (?,?,?,?,?,?) [23505-199]
+2020-06-06 00:12:08 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-06 00:12:10 ERROR    AbstractDao  deleteAll  :192 -- Referential integrity constraint violation: "CONSTRAINT_1859: PUBLIC.PRODUCT FOREIGN KEY(CATEGORY_ID) REFERENCES PUBLIC.CATEGORY(ID) (3)"; SQL statement:
+Delete from `category`  [23503-199]
+2020-06-06 00:12:24 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-06 00:12:25 INFO     AbstractDao  deleteAll  :187 -- Objects were deleted!
+2020-06-06 00:12:35 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-06 00:12:36 INFO     AbstractDao  deleteAll  :187 -- Objects were deleted!
+2020-06-06 00:12:46 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-06 00:12:47 INFO     AbstractDao  deleteAll  :187 -- Objects were deleted!
+2020-06-06 00:13:04 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-06 00:13:04 INFO     AbstractDao  deleteAll  :182 -- Table orderLineItem is empty
+2020-06-06 00:13:18 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-06 00:13:19 INFO     AbstractDao  deleteAll  :187 -- Objects were deleted!
+2020-06-06 00:13:35 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-06 00:13:35 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-06 00:13:36 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-06 00:13:36 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-06 00:13:36 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-06 00:13:36 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-06 00:13:36 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-06 00:13:36 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-06 00:13:37 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-06 00:13:37 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-11 15:20:29 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-11 15:20:30 ERROR    AbstractDao  deleteAll  :192 -- Referential integrity constraint violation: "CONSTRAINT_1859: PUBLIC.PRODUCT FOREIGN KEY(CATEGORY_ID) REFERENCES PUBLIC.CATEGORY(ID) (1)"; SQL statement:
+Delete from `category`  [23503-199]
+2020-06-11 15:20:30 INFO     AbstractDao  delete  :133 -- Start deleting object
+2020-06-11 15:20:30 INFO     AbstractDao  delete  :140 -- Object is deleted
+2020-06-11 15:20:31 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-11 15:20:31 ERROR    AbstractDao  deleteAll  :192 -- Referential integrity constraint violation: "CONSTRAINT_1859: PUBLIC.PRODUCT FOREIGN KEY(CATEGORY_ID) REFERENCES PUBLIC.CATEGORY(ID) (1)"; SQL statement:
+Delete from `category`  [23503-199]
+2020-06-11 15:20:31 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-11 15:20:31 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-11 15:20:31 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-11 15:20:31 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-11 15:20:31 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-11 15:20:32 ERROR    AbstractDao  create  :62 -- Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.CATEGORY(ID) [1, 'Sweets']"; SQL statement:
+Insert into `category` (name) values (?) [23505-199]
+2020-06-11 15:20:32 INFO     AbstractDao  update  :114 -- Updating object
+2020-06-11 15:20:32 INFO     AbstractDao  update  :122 -- Object is updated
+2020-06-11 15:20:32 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-11 15:20:32 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-11 15:20:32 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-11 15:20:32 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-11 15:20:32 INFO     AbstractDao  delete  :133 -- Start deleting object
+2020-06-11 15:20:32 INFO     AbstractDao  delete  :140 -- Object is deleted
+2020-06-11 15:20:33 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-11 15:20:33 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-11 15:20:33 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-11 15:20:33 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-11 15:21:46 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-11 15:21:47 INFO     AbstractDao  deleteAll  :187 -- Objects were deleted!
+2020-06-11 15:21:47 INFO     AbstractDao  delete  :133 -- Start deleting object
+2020-06-11 15:21:47 INFO     AbstractDao  delete  :140 -- Object is deleted
+2020-06-11 15:21:47 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-11 15:21:47 INFO     AbstractDao  deleteAll  :182 -- Table category is empty
+2020-06-11 15:21:48 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-11 15:21:48 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-11 15:21:48 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-11 15:21:48 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-11 15:21:48 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-11 15:21:48 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-11 15:21:48 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-11 15:21:49 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-11 15:21:49 INFO     AbstractDao  getAll  :156 -- Start getting objects from DB
+2020-06-11 15:21:49 INFO     AbstractDao  getAll  :160 -- Objects are recived 
+2020-06-11 15:21:49 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-11 15:21:49 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-11 15:21:49 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-11 15:21:49 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-11 15:21:50 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-11 15:21:50 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-11 15:21:50 INFO     AbstractDao  update  :114 -- Updating object
+2020-06-11 15:21:50 INFO     AbstractDao  update  :122 -- Object is updated
+2020-06-11 15:21:50 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-11 15:21:50 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-11 15:21:51 INFO     AbstractDao  update  :114 -- Updating object
+2020-06-11 15:21:51 INFO     AbstractDao  update  :122 -- Object is updated
+2020-06-11 15:21:51 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-11 15:21:51 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-11 15:21:51 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-11 15:21:51 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-11 15:21:51 INFO     AbstractDao  delete  :133 -- Start deleting object
+2020-06-11 15:21:51 INFO     AbstractDao  delete  :140 -- Object is deleted
+2020-06-11 15:21:52 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-11 15:21:52 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-11 15:21:52 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-11 15:21:52 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-11 15:24:21 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-11 15:24:22 INFO     AbstractDao  deleteAll  :187 -- Objects were deleted!
+2020-06-11 15:24:22 INFO     AbstractDao  delete  :133 -- Start deleting object
+2020-06-11 15:24:23 INFO     AbstractDao  delete  :140 -- Object is deleted
+2020-06-11 15:24:23 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-11 15:24:23 INFO     AbstractDao  deleteAll  :182 -- Table category is empty
+2020-06-11 15:24:23 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-11 15:24:23 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-11 15:24:23 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-11 15:24:23 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-11 15:24:24 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-11 15:24:24 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-11 15:24:24 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-11 15:24:24 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-11 15:24:24 INFO     AbstractDao  getAll  :156 -- Start getting objects from DB
+2020-06-11 15:24:24 INFO     AbstractDao  getAll  :160 -- Objects are recived 
+2020-06-11 15:24:25 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-11 15:24:25 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-11 15:24:25 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-11 15:24:25 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-11 15:24:25 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-11 15:24:25 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-11 15:24:25 INFO     AbstractDao  update  :114 -- Updating object
+2020-06-11 15:24:25 INFO     AbstractDao  update  :122 -- Object is updated
+2020-06-11 15:24:26 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-11 15:24:26 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-11 15:24:26 INFO     AbstractDao  update  :114 -- Updating object
+2020-06-11 15:24:26 INFO     AbstractDao  update  :122 -- Object is updated
+2020-06-11 15:24:26 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-11 15:24:26 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-11 15:24:27 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-11 15:24:27 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-11 15:24:27 INFO     AbstractDao  delete  :133 -- Start deleting object
+2020-06-11 15:24:27 INFO     AbstractDao  delete  :140 -- Object is deleted
+2020-06-11 15:24:27 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-11 15:24:27 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-11 15:24:27 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-11 15:24:27 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-11 15:26:22 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-11 15:26:23 INFO     AbstractDao  deleteAll  :187 -- Objects were deleted!
+2020-06-11 15:26:23 INFO     AbstractDao  delete  :133 -- Start deleting object
+2020-06-11 15:26:23 INFO     AbstractDao  delete  :140 -- Object is deleted
+2020-06-11 15:26:23 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-11 15:26:23 INFO     AbstractDao  deleteAll  :182 -- Table category is empty
+2020-06-11 15:26:23 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-11 15:26:24 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-11 15:26:24 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-11 15:26:24 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-11 15:26:24 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-11 15:26:24 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-11 15:26:24 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-11 15:26:24 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-11 15:26:25 INFO     AbstractDao  getAll  :156 -- Start getting objects from DB
+2020-06-11 15:26:25 INFO     AbstractDao  getAll  :160 -- Objects are recived 
+2020-06-11 15:26:25 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-11 15:26:25 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-11 15:26:25 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-11 15:26:25 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-11 15:26:25 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-11 15:26:25 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-11 15:26:26 INFO     AbstractDao  update  :114 -- Updating object
+2020-06-11 15:26:26 INFO     AbstractDao  update  :122 -- Object is updated
+2020-06-11 15:26:26 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-11 15:26:26 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-11 15:26:26 INFO     AbstractDao  update  :114 -- Updating object
+2020-06-11 15:26:26 INFO     AbstractDao  update  :122 -- Object is updated
+2020-06-11 15:26:26 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-11 15:26:26 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-11 15:26:27 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-11 15:26:27 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-11 15:26:27 INFO     AbstractDao  delete  :133 -- Start deleting object
+2020-06-11 15:26:27 INFO     AbstractDao  delete  :140 -- Object is deleted
+2020-06-11 15:26:27 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-11 15:26:27 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-11 15:26:28 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-11 15:26:28 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-11 15:26:39 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-11 15:26:40 INFO     AbstractDao  deleteAll  :187 -- Objects were deleted!
+2020-06-22 13:03:29 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-22 13:03:30 INFO     AbstractDao  deleteAll  :182 -- Table category is empty
+2020-06-22 13:03:30 INFO     AbstractDao  delete  :133 -- Start deleting object
+2020-06-22 13:03:30 INFO     AbstractDao  delete  :140 -- Object is deleted
+2020-06-22 13:03:30 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-22 13:03:31 INFO     AbstractDao  deleteAll  :182 -- Table category is empty
+2020-06-22 13:03:31 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:03:31 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:03:31 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:03:31 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:03:31 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:03:31 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:03:32 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:03:32 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:03:32 INFO     AbstractDao  getAll  :156 -- Start getting objects from DB
+2020-06-22 13:03:32 INFO     AbstractDao  getAll  :160 -- Objects are recived 
+2020-06-22 13:03:32 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:03:32 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:03:32 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-22 13:03:32 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-22 13:03:33 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:03:33 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:03:33 INFO     AbstractDao  update  :114 -- Updating object
+2020-06-22 13:03:33 INFO     AbstractDao  update  :122 -- Object is updated
+2020-06-22 13:03:33 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:03:33 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:03:33 INFO     AbstractDao  update  :114 -- Updating object
+2020-06-22 13:03:33 INFO     AbstractDao  update  :122 -- Object is updated
+2020-06-22 13:03:34 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:03:34 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:03:34 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:03:34 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:03:34 INFO     AbstractDao  delete  :133 -- Start deleting object
+2020-06-22 13:03:34 INFO     AbstractDao  delete  :140 -- Object is deleted
+2020-06-22 13:03:34 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:03:34 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:03:35 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-22 13:03:35 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-22 13:07:36 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-22 13:07:37 INFO     AbstractDao  deleteAll  :187 -- Objects were deleted!
+2020-06-22 13:07:47 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-22 13:07:48 INFO     AbstractDao  deleteAll  :182 -- Table category is empty
+2020-06-22 13:07:48 INFO     AbstractDao  delete  :133 -- Start deleting object
+2020-06-22 13:07:48 INFO     AbstractDao  delete  :140 -- Object is deleted
+2020-06-22 13:07:48 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-22 13:07:48 INFO     AbstractDao  deleteAll  :182 -- Table category is empty
+2020-06-22 13:07:48 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:07:49 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:07:49 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:07:49 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:07:49 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:07:49 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:07:49 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:07:49 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:07:50 INFO     AbstractDao  getAll  :156 -- Start getting objects from DB
+2020-06-22 13:07:50 INFO     AbstractDao  getAll  :160 -- Objects are recived 
+2020-06-22 13:07:50 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:07:50 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:07:50 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-22 13:07:50 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-22 13:07:51 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:07:51 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:07:51 INFO     AbstractDao  update  :114 -- Updating object
+2020-06-22 13:07:51 INFO     AbstractDao  update  :122 -- Object is updated
+2020-06-22 13:07:51 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:07:51 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:07:51 INFO     AbstractDao  update  :114 -- Updating object
+2020-06-22 13:07:51 INFO     AbstractDao  update  :122 -- Object is updated
+2020-06-22 13:07:52 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:07:52 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:07:52 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:07:52 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:07:52 INFO     AbstractDao  delete  :133 -- Start deleting object
+2020-06-22 13:07:52 INFO     AbstractDao  delete  :140 -- Object is deleted
+2020-06-22 13:07:53 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:07:53 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:07:53 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-22 13:07:53 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-22 13:09:15 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-22 13:09:16 INFO     AbstractDao  deleteAll  :187 -- Objects were deleted!
+2020-06-22 13:09:16 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:09:16 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:09:16 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:09:17 ERROR    AbstractDao  create  :62 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_3 ON PUBLIC.CATEGORY(NAME) VALUES 1"; SQL statement:
+Insert into `category` (name) values (?) [23505-199]
+2020-06-22 13:09:17 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-22 13:09:17 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-22 13:09:17 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-22 13:09:17 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-22 13:09:18 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:09:18 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:09:18 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:09:18 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:09:18 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:09:18 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:09:19 INFO     AbstractDao  update  :114 -- Updating object
+2020-06-22 13:09:19 INFO     AbstractDao  update  :122 -- Object is updated
+2020-06-22 13:09:19 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:09:19 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:09:19 INFO     AbstractDao  update  :114 -- Updating object
+2020-06-22 13:09:19 INFO     AbstractDao  update  :122 -- Object is updated
+2020-06-22 13:09:19 INFO     AbstractDao  delete  :133 -- Start deleting object
+2020-06-22 13:09:19 INFO     AbstractDao  delete  :140 -- Object is deleted
+2020-06-22 13:09:20 INFO     AbstractDao  delete  :133 -- Start deleting object
+2020-06-22 13:09:20 INFO     AbstractDao  delete  :140 -- Object is deleted
+2020-06-22 13:09:20 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-22 13:09:20 INFO     AbstractDao  deleteAll  :187 -- Objects were deleted!
+2020-06-22 13:09:20 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:09:20 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:09:20 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:09:20 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:09:21 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:09:21 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:09:21 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:09:21 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:09:21 INFO     AbstractDao  getAll  :156 -- Start getting objects from DB
+2020-06-22 13:09:21 INFO     AbstractDao  getAll  :160 -- Objects are recived 
+2020-06-22 13:10:32 INFO     AbstractDao  deleteAll  :169 -- Start deleting all objects!
+2020-06-22 13:10:32 INFO     AbstractDao  deleteAll  :187 -- Objects were deleted!
+2020-06-22 13:11:14 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:11:14 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:11:36 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-22 13:11:37 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-22 13:13:19 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:13:20 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:13:48 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:13:49 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:13:54 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:13:55 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:18:29 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:18:30 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:18:57 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-22 13:18:58 INFO     AbstractDao  deleteAll  :183 -- Table category is empty
+2020-06-22 13:18:58 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:18:58 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:18:59 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:18:59 ERROR    AbstractDao  create  :62 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_3 ON PUBLIC.CATEGORY(NAME) VALUES 1"; SQL statement:
+Insert into `category` (name) values (?) [23505-199]
+2020-06-22 13:18:59 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-22 13:18:59 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-22 13:18:59 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-22 13:18:59 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-22 13:19:00 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:19:00 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:19:00 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:19:00 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:19:00 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:19:00 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:19:00 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-22 13:19:01 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-22 13:19:01 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:19:01 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:19:01 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-22 13:19:01 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-22 13:19:01 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-22 13:19:01 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-22 13:19:02 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-22 13:19:02 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-22 13:19:02 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-22 13:19:02 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-22 13:19:02 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:19:02 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:19:03 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:19:03 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:19:03 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:19:03 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:19:03 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:19:03 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:19:03 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-06-22 13:19:03 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-06-22 13:20:37 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-22 13:20:37 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-22 13:20:38 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:20:38 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:20:38 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:20:38 ERROR    AbstractDao  create  :62 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_3 ON PUBLIC.CATEGORY(NAME) VALUES 1"; SQL statement:
+Insert into `category` (name) values (?) [23505-199]
+2020-06-22 13:20:38 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-22 13:20:39 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-22 13:20:39 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-22 13:20:39 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-22 13:20:39 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:20:39 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:20:39 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:20:39 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:20:40 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:20:40 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:20:40 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-22 13:20:40 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-22 13:20:40 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-22 13:20:40 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-22 13:20:40 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-22 13:20:40 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-22 13:20:41 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-22 13:20:41 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-22 13:20:41 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-22 13:20:41 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-22 13:20:41 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-22 13:20:41 INFO     AbstractDao  deleteAll  :183 -- Table category is empty
+2020-06-22 13:20:41 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:20:41 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:20:42 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:20:42 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:20:42 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:20:42 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:20:42 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-22 13:20:42 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-22 13:20:43 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-06-22 13:20:43 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-06-24 20:07:20 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:07:22 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 20:07:23 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:07:23 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:07:23 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:07:23 ERROR    AbstractDao  create  :62 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_3 ON PUBLIC.CATEGORY(NAME) VALUES 1"; SQL statement:
+Insert into `category` (name) values (?) [23505-199]
+2020-06-24 20:07:23 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:07:23 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:07:24 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:07:24 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:07:24 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:07:24 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:07:24 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:07:24 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:07:25 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:07:25 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:07:25 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:07:25 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 20:07:25 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:07:25 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:07:26 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:07:26 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 20:07:26 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:07:26 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:07:26 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:07:26 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:07:27 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:07:27 INFO     AbstractDao  deleteAll  :183 -- Table category is empty
+2020-06-24 20:07:27 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:07:27 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:07:28 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:07:28 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:07:28 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:07:28 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:07:28 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:07:28 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:07:28 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-06-24 20:07:28 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-06-24 20:13:45 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:13:46 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 20:13:46 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:13:46 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:13:46 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:13:47 ERROR    AbstractDao  create  :62 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_3 ON PUBLIC.CATEGORY(NAME) VALUES 1"; SQL statement:
+Insert into `category` (name) values (?) [23505-199]
+2020-06-24 20:13:47 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:13:47 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:13:47 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:13:47 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:13:48 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:13:48 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:13:48 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:13:48 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:13:48 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:13:48 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:13:49 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:13:49 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 20:13:49 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:13:49 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:13:50 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:13:50 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 20:13:50 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:13:50 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:13:51 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:13:51 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:13:51 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:13:51 INFO     AbstractDao  deleteAll  :183 -- Table category is empty
+2020-06-24 20:13:51 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:13:51 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:13:52 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:13:52 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:13:52 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:13:52 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:13:52 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:13:52 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:13:53 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-06-24 20:13:53 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-06-24 20:15:22 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:15:23 INFO     AbstractDao  deleteAll  :183 -- Table Orders is empty
+2020-06-24 20:15:24 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:15:24 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:15:24 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:15:24 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:15:25 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:15:25 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:15:25 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:15:25 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:15:25 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:15:25 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:15:25 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:15:25 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:15:26 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:15:26 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:15:26 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:15:26 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 20:15:27 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:15:27 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:15:27 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:15:27 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 20:15:27 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:15:27 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:15:28 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:15:28 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:15:28 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:15:28 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 20:15:28 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:15:28 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:15:29 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:15:29 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:15:29 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:15:29 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:15:29 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:15:29 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:15:29 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-06-24 20:15:29 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-06-24 20:16:38 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:16:38 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:17:45 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:17:46 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:18:05 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:18:06 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:18:28 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:18:29 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 20:18:48 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:18:49 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:23:09 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:23:10 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 20:23:30 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:23:30 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:23:57 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:23:58 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:25:57 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:25:58 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:26:19 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:26:19 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:26:29 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:26:29 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:26:38 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:26:38 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:26:47 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:26:48 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:26:48 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:26:48 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 20:26:49 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:26:49 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:27:10 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:27:11 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 20:27:20 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:27:21 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:28:07 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:28:08 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 20:28:08 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:28:08 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:28:08 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:28:08 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:28:09 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:28:09 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:28:09 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:28:09 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:28:09 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-06-24 20:28:09 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-06-24 20:29:34 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:29:35 INFO     AbstractDao  deleteAll  :183 -- Table orderLineItem is empty
+2020-06-24 20:29:35 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:29:35 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:29:35 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:29:35 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:29:36 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:29:36 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:29:36 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:29:36 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:29:36 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:29:36 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:29:37 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:29:37 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:29:37 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:29:37 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:29:37 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:29:37 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 20:29:37 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:29:37 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:29:38 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:29:38 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 20:29:38 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:29:38 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:29:38 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:29:38 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:29:38 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:29:38 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:29:39 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:29:39 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 20:29:39 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:29:39 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:29:39 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:29:39 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:29:39 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-06-24 20:29:39 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-06-24 20:30:13 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:30:14 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 20:30:14 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:30:14 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:30:15 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:30:15 ERROR    AbstractDao  create  :62 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_1 ON PUBLIC.PRODUCT(NAME) VALUES 1"; SQL statement:
+insert into `product` (name,price,produced,expiration,supplier_id, category_id) VALUES (?,?,?,?,?,?) [23505-199]
+2020-06-24 20:30:15 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:30:15 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:30:15 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:30:15 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:30:16 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:30:16 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:30:16 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:30:16 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:30:16 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:30:16 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:30:17 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:30:17 ERROR    AbstractDao  update  :125 -- Column "SUPPLIER" not found; SQL statement:
+Update `product` set `name` = ?, price = ?, produced = ?, expiration = ?, supplier = ?, category = ? where `id` = ? [42122-199]
+2020-06-24 20:30:17 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:30:17 ERROR    AbstractDao  update  :125 -- Column "SUPPLIER" not found; SQL statement:
+Update `product` set `name` = ?, price = ?, produced = ?, expiration = ?, supplier = ?, category = ? where `id` = ? [42122-199]
+2020-06-24 20:30:17 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:30:17 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:30:18 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:30:18 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:30:18 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:30:18 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:30:18 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:30:18 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:30:18 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:30:18 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:30:19 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:30:19 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:30:19 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-06-24 20:30:19 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-06-24 20:36:28 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:36:28 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 20:36:46 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:36:46 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 20:36:47 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:36:47 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:36:47 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:36:47 ERROR    AbstractDao  create  :62 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_1 ON PUBLIC.PRODUCT(NAME) VALUES 1"; SQL statement:
+insert into `product` (name,price,produced,expiration,supplier_id, category_id) VALUES (?,?,?,?,?,?) [23505-199]
+2020-06-24 20:36:47 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:36:47 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:36:48 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:36:48 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:36:48 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:36:48 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:36:48 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:36:48 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:36:49 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:36:49 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:36:49 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:36:49 ERROR    AbstractDao  update  :125 -- Column "SUPPLIER" not found; SQL statement:
+Update `product` set `name` = ?, price = ?, produced = ?, expiration = ?, supplier = ?, category = ? where `id` = ? [42122-199]
+2020-06-24 20:36:49 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:36:49 ERROR    AbstractDao  update  :125 -- Column "SUPPLIER" not found; SQL statement:
+Update `product` set `name` = ?, price = ?, produced = ?, expiration = ?, supplier = ?, category = ? where `id` = ? [42122-199]
+2020-06-24 20:36:49 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:36:49 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:36:50 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:36:50 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:36:50 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:36:50 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:36:50 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:36:50 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:36:51 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:36:51 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:36:51 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:36:51 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:36:51 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-06-24 20:36:51 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-06-24 20:39:31 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:39:31 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 20:39:32 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:39:32 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:39:32 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:39:32 ERROR    AbstractDao  create  :62 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_1 ON PUBLIC.PRODUCT(NAME) VALUES 1"; SQL statement:
+insert into `product` (name,price,produced,expiration,supplier_id, category_id) VALUES (?,?,?,?,?,?) [23505-199]
+2020-06-24 20:39:32 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:39:32 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:39:33 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:39:33 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:39:33 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:39:33 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:39:33 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:39:33 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:39:33 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:39:33 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:39:34 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:39:34 ERROR    AbstractDao  update  :125 -- Column "SUPPLIER" not found; SQL statement:
+Update `product` set `name` = ?, price = ?, produced = ?, expiration = ?, supplier = ?, category = ? where `id` = ? [42122-199]
+2020-06-24 20:39:34 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:39:34 ERROR    AbstractDao  update  :125 -- Column "SUPPLIER" not found; SQL statement:
+Update `product` set `name` = ?, price = ?, produced = ?, expiration = ?, supplier = ?, category = ? where `id` = ? [42122-199]
+2020-06-24 20:39:34 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:39:34 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:39:35 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:39:35 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:39:35 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:39:35 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:39:35 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:39:35 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:39:35 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:39:35 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:39:35 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:39:35 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:39:36 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-06-24 20:39:36 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-06-24 20:45:37 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:45:37 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 20:45:38 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:45:38 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:45:38 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:45:38 ERROR    AbstractDao  create  :62 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_1 ON PUBLIC.PRODUCT(NAME) VALUES 1"; SQL statement:
+insert into `product` (name,price,produced,expiration,supplier_id, category_id) VALUES (?,?,?,?,?,?) [23505-199]
+2020-06-24 20:45:38 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:45:38 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:45:39 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:45:39 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:45:39 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:45:39 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:45:39 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:45:39 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:45:40 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:45:40 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:45:40 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:45:40 ERROR    AbstractDao  update  :125 -- Column "CATEGORY" not found; SQL statement:
+Update `product` set `name` = ?, price = ?, produced = ?, expiration = ?, supplier_id = ?, category = ? where `id` = ? [42122-199]
+2020-06-24 20:45:40 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:45:40 ERROR    AbstractDao  update  :125 -- Column "CATEGORY" not found; SQL statement:
+Update `product` set `name` = ?, price = ?, produced = ?, expiration = ?, supplier_id = ?, category = ? where `id` = ? [42122-199]
+2020-06-24 20:45:40 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:45:40 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:45:41 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:45:41 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:45:41 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:45:41 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:45:41 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:45:41 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:45:41 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:45:42 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:45:42 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:45:42 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:45:42 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-06-24 20:45:42 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-06-24 20:46:55 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:46:55 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 20:47:09 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:47:10 INFO     AbstractDao  deleteAll  :183 -- Table product is empty
+2020-06-24 20:47:10 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:47:10 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:47:11 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:47:11 ERROR    AbstractDao  create  :62 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_1 ON PUBLIC.PRODUCT(NAME) VALUES 1"; SQL statement:
+insert into `product` (name,price,produced,expiration,supplier_id, category_id) VALUES (?,?,?,?,?,?) [23505-199]
+2020-06-24 20:47:11 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:47:11 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:47:11 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:47:11 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:47:12 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:47:12 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:47:12 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:47:12 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:47:12 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:47:12 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:47:12 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:47:12 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 20:47:13 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:47:13 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:47:13 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:47:13 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 20:47:13 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:47:13 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:47:13 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:47:13 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:47:14 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:47:14 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:47:14 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:47:14 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:47:14 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:47:14 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:47:14 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:47:14 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:47:15 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-06-24 20:47:15 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-06-24 20:48:03 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:48:04 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 20:48:12 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:48:13 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:50:00 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:50:01 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:50:01 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:50:02 ERROR    AbstractDao  update  :125 -- Parameter "#5" is not set; SQL statement:
+Update `product` set `name` = ?, price = ?, produced = ?, expiration = ?, supplier_id = ?, category_id = ? where `id` = ? [90012-199]
+2020-06-24 20:51:00 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:51:00 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:51:01 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:51:01 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 20:51:01 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:51:01 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:53:53 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:53:53 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 20:53:54 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:53:54 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:53:54 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:53:54 ERROR    AbstractDao  create  :62 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_1 ON PUBLIC.PRODUCT(NAME) VALUES 1"; SQL statement:
+insert into `product` (name,price,produced,expiration,supplier_id, category_id) VALUES (?,?,?,?,?,?) [23505-199]
+2020-06-24 20:53:54 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:53:54 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:53:55 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:53:55 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:53:55 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:53:55 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:53:55 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:53:55 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:53:55 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:53:55 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:53:56 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:53:56 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 20:53:56 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:53:56 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:53:56 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:53:56 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 20:53:57 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:53:57 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:53:57 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:53:57 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:53:57 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:53:57 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:53:57 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:53:57 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:53:58 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:53:58 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:53:58 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:53:58 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:53:58 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-06-24 20:53:58 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-06-24 20:56:33 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:56:34 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 20:56:34 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:56:34 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:56:34 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:56:35 ERROR    AbstractDao  create  :62 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_1 ON PUBLIC.PRODUCT(NAME) VALUES 1"; SQL statement:
+insert into `product` (name,price,produced,expiration,supplier_id, category_id) VALUES (?,?,?,?,?,?) [23505-199]
+2020-06-24 20:56:35 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:56:35 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:56:35 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:56:35 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:56:35 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:56:35 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:56:36 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:56:36 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:56:36 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:56:36 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:56:36 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:56:36 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 20:56:36 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:56:36 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:56:36 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:56:37 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 20:56:37 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:56:37 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:56:37 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:56:37 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:56:37 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:56:37 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:56:38 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:56:38 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:56:38 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:56:38 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:56:38 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:56:38 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:56:38 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-06-24 20:56:38 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-06-24 20:57:21 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:57:21 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 20:57:22 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:57:22 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:57:22 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:57:22 ERROR    AbstractDao  create  :62 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_1 ON PUBLIC.PRODUCT(NAME) VALUES 1"; SQL statement:
+insert into `product` (name,price,produced,expiration,supplier_id, category_id) VALUES (?,?,?,?,?,?) [23505-199]
+2020-06-24 20:57:22 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:57:22 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:57:23 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 20:57:23 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 20:57:23 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:57:23 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:57:23 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:57:23 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:57:23 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:57:23 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:57:24 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:57:24 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 20:57:24 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 20:57:24 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 20:57:24 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 20:57:24 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 20:57:24 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:57:24 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:57:25 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 20:57:25 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 20:57:25 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 20:57:25 INFO     AbstractDao  deleteAll  :183 -- Table product is empty
+2020-06-24 20:57:25 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:57:25 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:57:25 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:57:25 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:57:26 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:57:26 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:57:26 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 20:57:26 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 20:57:26 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-06-24 20:57:26 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-06-24 21:01:09 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 21:01:09 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 21:01:10 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:01:10 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:01:10 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:01:10 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:01:10 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:01:10 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:01:11 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:01:11 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:01:11 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-06-24 21:01:11 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-06-24 21:01:23 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 21:01:24 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 21:01:58 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 21:01:59 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 21:01:59 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:01:59 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:00 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:00 ERROR    AbstractDao  create  :62 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_C ON PUBLIC.SUPPLIER(COMPANYNAME) VALUES 1"; SQL statement:
+insert into `supplier` (companyName) values (?) [23505-199]
+2020-06-24 21:02:00 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 21:02:00 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 21:02:01 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-06-24 21:02:01 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-06-24 21:02:01 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 21:02:01 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 21:02:02 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 21:02:02 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 21:02:02 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 21:02:02 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 21:02:02 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 21:02:03 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 21:02:03 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-06-24 21:02:03 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-06-24 21:02:03 INFO     AbstractDao  update  :115 -- Updating object
+2020-06-24 21:02:03 INFO     AbstractDao  update  :123 -- Object is updated
+2020-06-24 21:02:03 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 21:02:03 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 21:02:03 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-06-24 21:02:04 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-06-24 21:02:04 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:04 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:04 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:04 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:04 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:04 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:05 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:05 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:05 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:05 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:05 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:05 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:05 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:05 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:06 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:06 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:06 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:06 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:06 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:06 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:06 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:06 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:07 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:07 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:07 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:07 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:07 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:07 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:08 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:08 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:08 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:08 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:08 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:08 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:08 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:08 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:09 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:09 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:09 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:09 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:09 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:09 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:09 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:09 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:10 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:10 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:10 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-06-24 21:02:10 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-06-24 21:02:40 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 21:02:41 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 21:02:41 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:41 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:42 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:42 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:42 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:42 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:42 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:42 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:43 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:43 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:43 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:43 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:43 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:43 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:43 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:43 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:44 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:44 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:44 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:44 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:44 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:44 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:45 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:45 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:45 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:45 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:45 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:45 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:45 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:45 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:46 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:46 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:46 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:46 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:46 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:46 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:47 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:47 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:47 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:47 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:47 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:47 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:48 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:48 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:48 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:02:48 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:02:48 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-06-24 21:02:48 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-06-24 21:03:18 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-06-24 21:03:19 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-06-24 21:03:19 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:03:19 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:03:19 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:03:19 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:03:19 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:03:20 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:03:20 INFO     AbstractDao  create  :46 -- Start creating object
+2020-06-24 21:03:20 INFO     AbstractDao  create  :60 -- Object seved to DB
+2020-06-24 21:03:20 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-06-24 21:03:20 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-07-03 10:41:07 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-03 10:41:08 ERROR    AbstractDao  create  :66 -- Referential integrity constraint violation: "CONSTRAINT_1859: PUBLIC.PRODUCT FOREIGN KEY(CATEGORY_ID) REFERENCES PUBLIC.CATEGORY(ID) (1)"; SQL statement:
+insert into `product` (name,price,produced,expiration,supplier_id, category_id) VALUES (?,?,?,?,?,?) [23506-199]
+2020-07-06 21:53:35 INFO     AbstractDao  deleteAll  :173 -- Start deleting all objects!
+2020-07-06 21:53:36 INFO     AbstractDao  deleteAll  :186 -- Table category is empty
+2020-07-06 21:53:37 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 21:53:37 INFO     AbstractDao  create  :63 -- Object saved to DB
+2020-07-06 21:53:37 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 21:53:37 ERROR    AbstractDao  create  :66 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_3 ON PUBLIC.CATEGORY(NAME) VALUES 1"; SQL statement:
+Insert into `category` (name) values (?) [23505-199]
+2020-07-06 21:53:37 INFO     AbstractDao  readById  :73 -- Getting object by Id
+2020-07-06 21:53:37 INFO     AbstractDao  readById  :83 -- Object is got by Id
+2020-07-06 21:53:37 INFO     AbstractDao  readById  :73 -- Getting object by Id
+2020-07-06 21:53:37 INFO     AbstractDao  readById  :83 -- Object is got by Id
+2020-07-06 21:53:38 INFO     AbstractDao  readByKey  :96 -- Getting object by Key
+2020-07-06 21:53:38 INFO     AbstractDao  readByKey  :106 -- Object is got by key
+2020-07-06 21:53:38 INFO     AbstractDao  readByKey  :96 -- Getting object by Key
+2020-07-06 21:53:38 INFO     AbstractDao  readByKey  :106 -- Object is got by key
+2020-07-06 21:53:38 INFO     AbstractDao  readByKey  :96 -- Getting object by Key
+2020-07-06 21:53:38 INFO     AbstractDao  readByKey  :106 -- Object is got by key
+2020-07-06 21:53:38 INFO     AbstractDao  update  :118 -- Updating object
+2020-07-06 21:53:38 INFO     AbstractDao  update  :126 -- Object is updated
+2020-07-06 21:53:38 INFO     AbstractDao  readByKey  :96 -- Getting object by Key
+2020-07-06 21:53:39 INFO     AbstractDao  readByKey  :106 -- Object is got by key
+2020-07-06 21:53:39 INFO     AbstractDao  update  :118 -- Updating object
+2020-07-06 21:53:39 INFO     AbstractDao  update  :126 -- Object is updated
+2020-07-06 21:53:39 INFO     AbstractDao  delete  :137 -- Start deleting object
+2020-07-06 21:53:39 INFO     AbstractDao  delete  :144 -- Object is deleted
+2020-07-06 21:53:39 INFO     AbstractDao  delete  :137 -- Start deleting object
+2020-07-06 21:53:39 INFO     AbstractDao  delete  :144 -- Object is deleted
+2020-07-06 21:53:39 INFO     AbstractDao  deleteAll  :173 -- Start deleting all objects!
+2020-07-06 21:53:40 INFO     AbstractDao  deleteAll  :186 -- Table category is empty
+2020-07-06 21:53:40 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 21:53:40 INFO     AbstractDao  create  :63 -- Object saved to DB
+2020-07-06 21:53:40 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 21:53:40 INFO     AbstractDao  create  :63 -- Object saved to DB
+2020-07-06 21:53:40 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 21:53:40 INFO     AbstractDao  create  :63 -- Object saved to DB
+2020-07-06 21:53:41 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 21:53:41 INFO     AbstractDao  create  :63 -- Object saved to DB
+2020-07-06 21:53:41 INFO     AbstractDao  getAll  :160 -- Start getting objects from DB
+2020-07-06 21:53:41 INFO     AbstractDao  getAll  :164 -- Objects are recived 
+2020-07-06 21:54:28 INFO     AbstractDao  deleteAll  :173 -- Start deleting all objects!
+2020-07-06 21:54:28 INFO     AbstractDao  deleteAll  :191 -- Objects were deleted!
+2020-07-06 21:54:50 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 21:54:51 INFO     AbstractDao  create  :63 -- Object saved to DB
+2020-07-06 21:55:55 INFO     AbstractDao  deleteAll  :173 -- Start deleting all objects!
+2020-07-06 21:55:55 INFO     AbstractDao  deleteAll  :191 -- Objects were deleted!
+2020-07-06 21:56:05 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 21:56:05 INFO     AbstractDao  create  :63 -- Object saved to DB
+2020-07-06 21:57:12 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 21:57:13 ERROR    AbstractDao  create  :65 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_3 ON PUBLIC.CATEGORY(NAME) VALUES 1"; SQL statement:
+Insert into `category` (name) values (?) [23505-199]
+2020-07-06 21:57:49 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 21:57:51 ERROR    AbstractDao  create  :65 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_3 ON PUBLIC.CATEGORY(NAME) VALUES 1"; SQL statement:
+Insert into `category` (name) values (?) [23505-199]
+2020-07-06 21:58:49 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:00:22 INFO     AbstractDao  deleteAll  :173 -- Start deleting all objects!
+2020-07-06 22:00:23 INFO     AbstractDao  deleteAll  :191 -- Objects were deleted!
+2020-07-06 22:00:33 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:00:34 INFO     AbstractDao  create  :63 -- Object saved to DB
+2020-07-06 22:00:57 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:04:00 INFO     AbstractDao  deleteAll  :173 -- Start deleting all objects!
+2020-07-06 22:04:01 INFO     AbstractDao  deleteAll  :191 -- Objects were deleted!
+2020-07-06 22:04:17 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:04:18 INFO     AbstractDao  create  :63 -- Object saved to DB
+2020-07-06 22:06:27 INFO     AbstractDao  deleteAll  :174 -- Start deleting all objects!
+2020-07-06 22:06:27 INFO     AbstractDao  deleteAll  :192 -- Objects were deleted!
+2020-07-06 22:06:37 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:06:37 INFO     AbstractDao  create  :64 -- Object saved to DB
+2020-07-06 22:09:08 INFO     AbstractDao  deleteAll  :175 -- Start deleting all objects!
+2020-07-06 22:09:08 INFO     AbstractDao  deleteAll  :193 -- Objects were deleted!
+2020-07-06 22:09:15 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:09:16 INFO     AbstractDao  create  :65 -- Object saved to DB
+2020-07-06 22:10:08 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:10:09 ERROR    AbstractDao  create  :68 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_3 ON PUBLIC.CATEGORY(NAME) VALUES 1"; SQL statement:
+Insert into `category` (name) values (?) [23505-199]
+2020-07-06 22:10:36 INFO     AbstractDao  deleteAll  :175 -- Start deleting all objects!
+2020-07-06 22:10:37 INFO     AbstractDao  deleteAll  :193 -- Objects were deleted!
+2020-07-06 22:10:46 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:10:46 INFO     AbstractDao  create  :65 -- Object saved to DB
+2020-07-06 22:11:19 INFO     AbstractDao  deleteAll  :175 -- Start deleting all objects!
+2020-07-06 22:11:20 INFO     AbstractDao  deleteAll  :193 -- Objects were deleted!
+2020-07-06 22:11:20 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:11:20 INFO     AbstractDao  create  :65 -- Object saved to DB
+2020-07-06 22:11:20 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:11:20 ERROR    AbstractDao  create  :68 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_3 ON PUBLIC.CATEGORY(NAME) VALUES 1"; SQL statement:
+Insert into `category` (name) values (?) [23505-199]
+2020-07-06 22:11:20 INFO     AbstractDao  readById  :75 -- Getting object by Id
+2020-07-06 22:11:20 INFO     AbstractDao  readById  :85 -- Object is got by Id
+2020-07-06 22:11:21 INFO     AbstractDao  readById  :75 -- Getting object by Id
+2020-07-06 22:11:21 INFO     AbstractDao  readById  :85 -- Object is got by Id
+2020-07-06 22:11:21 INFO     AbstractDao  readByKey  :98 -- Getting object by Key
+2020-07-06 22:11:21 INFO     AbstractDao  readByKey  :108 -- Object is got by key
+2020-07-06 22:11:21 INFO     AbstractDao  readByKey  :98 -- Getting object by Key
+2020-07-06 22:11:21 INFO     AbstractDao  readByKey  :108 -- Object is got by key
+2020-07-06 22:11:22 INFO     AbstractDao  readByKey  :98 -- Getting object by Key
+2020-07-06 22:11:22 INFO     AbstractDao  readByKey  :108 -- Object is got by key
+2020-07-06 22:11:22 INFO     AbstractDao  update  :120 -- Updating object
+2020-07-06 22:11:22 INFO     AbstractDao  update  :128 -- Object is updated
+2020-07-06 22:11:22 INFO     AbstractDao  readByKey  :98 -- Getting object by Key
+2020-07-06 22:11:22 INFO     AbstractDao  readByKey  :108 -- Object is got by key
+2020-07-06 22:11:22 INFO     AbstractDao  update  :120 -- Updating object
+2020-07-06 22:11:22 INFO     AbstractDao  update  :128 -- Object is updated
+2020-07-06 22:11:23 INFO     AbstractDao  delete  :139 -- Start deleting object
+2020-07-06 22:11:23 INFO     AbstractDao  delete  :146 -- Object is deleted
+2020-07-06 22:11:23 INFO     AbstractDao  delete  :139 -- Start deleting object
+2020-07-06 22:11:23 INFO     AbstractDao  delete  :146 -- Object is deleted
+2020-07-06 22:11:23 INFO     AbstractDao  deleteAll  :175 -- Start deleting all objects!
+2020-07-06 22:11:23 INFO     AbstractDao  deleteAll  :188 -- Table category is empty
+2020-07-06 22:11:24 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:11:24 INFO     AbstractDao  create  :65 -- Object saved to DB
+2020-07-06 22:11:24 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:11:24 INFO     AbstractDao  create  :65 -- Object saved to DB
+2020-07-06 22:11:24 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:11:24 INFO     AbstractDao  create  :65 -- Object saved to DB
+2020-07-06 22:11:24 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:11:24 INFO     AbstractDao  create  :65 -- Object saved to DB
+2020-07-06 22:11:25 INFO     AbstractDao  getAll  :162 -- Start getting objects from DB
+2020-07-06 22:11:25 INFO     AbstractDao  getAll  :166 -- Objects are recived 
+2020-07-06 22:11:58 INFO     AbstractDao  deleteAll  :175 -- Start deleting all objects!
+2020-07-06 22:11:58 INFO     AbstractDao  deleteAll  :193 -- Objects were deleted!
+2020-07-06 22:11:59 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:11:59 INFO     AbstractDao  create  :65 -- Object saved to DB
+2020-07-06 22:11:59 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:11:59 ERROR    AbstractDao  create  :68 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_C ON PUBLIC.SUPPLIER(COMPANYNAME) VALUES 1"; SQL statement:
+INSERT INTO `SUPPLIER` (companyName) values (?) [23505-199]
+2020-07-06 22:11:59 INFO     AbstractDao  readById  :75 -- Getting object by Id
+2020-07-06 22:11:59 INFO     AbstractDao  readById  :85 -- Object is got by Id
+2020-07-06 22:11:59 INFO     AbstractDao  readById  :75 -- Getting object by Id
+2020-07-06 22:11:59 INFO     AbstractDao  readById  :85 -- Object is got by Id
+2020-07-06 22:12:00 INFO     AbstractDao  readByKey  :98 -- Getting object by Key
+2020-07-06 22:12:00 INFO     AbstractDao  readByKey  :108 -- Object is got by key
+2020-07-06 22:12:00 INFO     AbstractDao  readByKey  :98 -- Getting object by Key
+2020-07-06 22:12:00 INFO     AbstractDao  readByKey  :108 -- Object is got by key
+2020-07-06 22:12:00 INFO     AbstractDao  readByKey  :98 -- Getting object by Key
+2020-07-06 22:12:00 INFO     AbstractDao  readByKey  :108 -- Object is got by key
+2020-07-06 22:12:00 INFO     AbstractDao  update  :120 -- Updating object
+2020-07-06 22:12:00 INFO     AbstractDao  update  :128 -- Object is updated
+2020-07-06 22:12:01 INFO     AbstractDao  readByKey  :98 -- Getting object by Key
+2020-07-06 22:12:01 INFO     AbstractDao  readByKey  :108 -- Object is got by key
+2020-07-06 22:12:01 INFO     AbstractDao  update  :120 -- Updating object
+2020-07-06 22:12:01 INFO     AbstractDao  update  :128 -- Object is updated
+2020-07-06 22:12:01 INFO     AbstractDao  delete  :139 -- Start deleting object
+2020-07-06 22:12:01 INFO     AbstractDao  delete  :146 -- Object is deleted
+2020-07-06 22:12:01 INFO     AbstractDao  delete  :139 -- Start deleting object
+2020-07-06 22:12:01 INFO     AbstractDao  delete  :146 -- Object is deleted
+2020-07-06 22:12:01 INFO     AbstractDao  deleteAll  :175 -- Start deleting all objects!
+2020-07-06 22:12:02 INFO     AbstractDao  deleteAll  :188 -- Table Supplier is empty
+2020-07-06 22:12:02 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:12:02 INFO     AbstractDao  create  :65 -- Object saved to DB
+2020-07-06 22:12:02 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:12:02 INFO     AbstractDao  create  :65 -- Object saved to DB
+2020-07-06 22:12:02 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:12:02 INFO     AbstractDao  create  :65 -- Object saved to DB
+2020-07-06 22:12:03 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:12:03 INFO     AbstractDao  create  :65 -- Object saved to DB
+2020-07-06 22:12:03 INFO     AbstractDao  getAll  :162 -- Start getting objects from DB
+2020-07-06 22:12:03 INFO     AbstractDao  getAll  :166 -- Objects are recived 
+2020-07-06 22:15:58 INFO     AbstractDao  deleteAll  :175 -- Start deleting all objects!
+2020-07-06 22:15:59 INFO     AbstractDao  deleteAll  :193 -- Objects were deleted!
+2020-07-06 22:16:10 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:16:11 INFO     AbstractDao  create  :65 -- Object saved to DB
+2020-07-06 22:16:18 INFO     AbstractDao  deleteAll  :175 -- Start deleting all objects!
+2020-07-06 22:16:18 INFO     AbstractDao  deleteAll  :193 -- Objects were deleted!
+2020-07-06 22:16:30 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:27:26 INFO     AbstractDao  create  :65 -- Object saved to DB
+2020-07-06 22:27:40 INFO     AbstractDao  deleteAll  :172 -- Start deleting all objects!
+2020-07-06 22:27:41 INFO     AbstractDao  deleteAll  :190 -- Objects were deleted!
+2020-07-06 22:27:49 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:27:50 ERROR    AbstractDao  create  :65 -- No data is available [2000-199]
+2020-07-06 22:28:16 INFO     AbstractDao  deleteAll  :172 -- Start deleting all objects!
+2020-07-06 22:28:16 INFO     AbstractDao  deleteAll  :190 -- Objects were deleted!
+2020-07-06 22:28:33 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:28:34 ERROR    AbstractDao  create  :65 -- No data is available [2000-199]
+2020-07-06 22:29:15 INFO     AbstractDao  deleteAll  :172 -- Start deleting all objects!
+2020-07-06 22:29:16 INFO     AbstractDao  deleteAll  :190 -- Objects were deleted!
+2020-07-06 22:29:24 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-06 22:29:24 INFO     AbstractDao  create  :62 -- Object saved to DB
+2020-07-07 19:21:58 INFO     AbstractDao  deleteAll  :171 -- Start deleting all objects!
+2020-07-07 19:21:59 INFO     AbstractDao  deleteAll  :189 -- Objects were deleted!
+2020-07-07 19:22:10 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:22:11 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:23:50 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-07-07 19:23:51 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-07-07 19:24:09 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:24:10 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:25:08 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-07-07 19:25:09 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-07-07 19:25:09 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:25:09 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:25:09 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:25:10 ERROR    AbstractDao  create  :63 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_3 ON PUBLIC.CATEGORY(NAME) VALUES 1"; SQL statement:
+Insert into `category` (name) values (?) [23505-199]
+2020-07-07 19:25:10 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-07-07 19:25:10 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-07-07 19:25:10 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-07-07 19:25:10 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-07-07 19:25:10 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-07-07 19:25:10 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-07-07 19:25:10 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-07-07 19:25:10 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-07-07 19:25:11 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-07-07 19:25:11 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-07-07 19:25:11 INFO     AbstractDao  update  :115 -- Updating object
+2020-07-07 19:25:11 INFO     AbstractDao  update  :123 -- Object is updated
+2020-07-07 19:25:11 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-07-07 19:25:11 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-07-07 19:25:11 INFO     AbstractDao  update  :115 -- Updating object
+2020-07-07 19:25:11 INFO     AbstractDao  update  :123 -- Object is updated
+2020-07-07 19:25:12 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-07-07 19:25:12 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-07-07 19:25:12 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-07-07 19:25:12 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-07-07 19:25:12 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-07-07 19:25:12 INFO     AbstractDao  deleteAll  :183 -- Table category is empty
+2020-07-07 19:25:12 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:25:12 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:25:13 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:25:13 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:25:13 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:25:13 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:25:13 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:25:13 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:25:13 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-07-07 19:25:13 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-07-07 19:25:30 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-07-07 19:25:31 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-07-07 19:25:31 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:25:31 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:25:32 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:25:32 ERROR    AbstractDao  create  :63 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_C ON PUBLIC.SUPPLIER(COMPANYNAME) VALUES 1"; SQL statement:
+INSERT INTO `SUPPLIER` (companyName) values (?) [23505-199]
+2020-07-07 19:25:32 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-07-07 19:25:32 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-07-07 19:25:32 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-07-07 19:25:32 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-07-07 19:25:32 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-07-07 19:25:33 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-07-07 19:25:33 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-07-07 19:25:33 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-07-07 19:25:33 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-07-07 19:25:33 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-07-07 19:25:33 INFO     AbstractDao  update  :115 -- Updating object
+2020-07-07 19:25:33 INFO     AbstractDao  update  :123 -- Object is updated
+2020-07-07 19:25:34 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-07-07 19:25:34 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-07-07 19:25:34 INFO     AbstractDao  update  :115 -- Updating object
+2020-07-07 19:25:34 INFO     AbstractDao  update  :123 -- Object is updated
+2020-07-07 19:25:34 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-07-07 19:25:34 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-07-07 19:25:34 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-07-07 19:25:34 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-07-07 19:25:35 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-07-07 19:25:35 INFO     AbstractDao  deleteAll  :183 -- Table Supplier is empty
+2020-07-07 19:25:35 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:25:35 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:25:35 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:25:35 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:25:35 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:25:35 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:25:36 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:25:36 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:25:36 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-07-07 19:25:36 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-07-07 19:25:56 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-07-07 19:25:57 INFO     AbstractDao  deleteAll  :183 -- Table product is empty
+2020-07-07 19:25:57 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:25:57 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:25:58 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:25:58 ERROR    AbstractDao  create  :63 -- Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_1 ON PUBLIC.PRODUCT(NAME) VALUES 1"; SQL statement:
+insert into `product` (name,price,produced,expiration,supplier_id, category_id) VALUES (?,?,?,?,?,?) [23505-199]
+2020-07-07 19:25:58 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-07-07 19:25:58 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-07-07 19:25:58 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-07-07 19:25:58 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-07-07 19:25:58 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-07-07 19:25:58 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-07-07 19:25:59 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-07-07 19:25:59 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-07-07 19:25:59 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-07-07 19:25:59 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-07-07 19:25:59 INFO     AbstractDao  update  :115 -- Updating object
+2020-07-07 19:25:59 INFO     AbstractDao  update  :123 -- Object is updated
+2020-07-07 19:25:59 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-07-07 19:25:59 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-07-07 19:26:00 INFO     AbstractDao  update  :115 -- Updating object
+2020-07-07 19:26:00 INFO     AbstractDao  update  :123 -- Object is updated
+2020-07-07 19:26:00 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-07-07 19:26:00 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-07-07 19:26:00 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-07-07 19:26:00 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-07-07 19:26:00 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-07-07 19:26:00 INFO     AbstractDao  deleteAll  :183 -- Table product is empty
+2020-07-07 19:26:01 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:26:01 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:26:01 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:26:01 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:26:01 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:26:01 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:26:01 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:26:01 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:26:02 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-07-07 19:26:02 INFO     AbstractDao  getAll  :161 -- Objects are recived 
+2020-07-07 19:29:42 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-07-07 19:29:43 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-07-07 19:29:43 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:29:43 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:29:44 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:29:44 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:29:44 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-07-07 19:29:44 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-07-07 19:29:44 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-07-07 19:29:44 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-07-07 19:29:44 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-07-07 19:29:44 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-07-07 19:29:45 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-07-07 19:29:45 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-07-07 19:29:45 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-07-07 19:29:45 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-07-07 19:29:45 INFO     AbstractDao  update  :115 -- Updating object
+2020-07-07 19:29:45 INFO     AbstractDao  update  :123 -- Object is updated
+2020-07-07 19:29:45 INFO     AbstractDao  readByKey  :93 -- Getting object by Key
+2020-07-07 19:29:45 INFO     AbstractDao  readByKey  :103 -- Object is got by key
+2020-07-07 19:29:46 INFO     AbstractDao  update  :115 -- Updating object
+2020-07-07 19:29:46 INFO     AbstractDao  update  :123 -- Object is updated
+2020-07-07 19:29:46 INFO     AbstractDao  readById  :70 -- Getting object by Id
+2020-07-07 19:29:46 INFO     AbstractDao  readById  :80 -- Object is got by Id
+2020-07-07 19:29:46 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-07-07 19:29:46 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-07-07 19:29:47 INFO     AbstractDao  delete  :134 -- Start deleting object
+2020-07-07 19:29:47 INFO     AbstractDao  delete  :141 -- Object is deleted
+2020-07-07 19:29:47 INFO     AbstractDao  deleteAll  :170 -- Start deleting all objects!
+2020-07-07 19:29:47 INFO     AbstractDao  deleteAll  :188 -- Objects were deleted!
+2020-07-07 19:29:47 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:29:47 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:29:47 INFO     AbstractDao  create  :46 -- Start creating object
+2020-07-07 19:29:47 INFO     AbstractDao  create  :60 -- Object saved to DB
+2020-07-07 19:29:48 INFO     AbstractDao  getAll  :157 -- Start getting objects from DB
+2020-07-07 19:29:48 INFO     AbstractDao  getAll  :161 -- Objects are recived 

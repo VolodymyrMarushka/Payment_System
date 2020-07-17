@@ -1,15 +1,14 @@
 package com.epam.dao;
 
 import com.epam.domain.Supplier;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Order;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class SupplierDaoH2Test {
 
     private DAO<Supplier, String> supplierDAO;
@@ -120,9 +119,10 @@ public class SupplierDaoH2Test {
     @Test
     @Order(11)
     public void getAll() {
+        DELETE_ALL();
         List<Supplier> suppliers = new ArrayList<>();
         String supplier = "Supplier ";
-        for (int i = 1; i < 24; i++) {
+        for (int i = 1; i < 5; i++) {
             suppliers.add(new Supplier(i,supplier+i));
             supplierDAO.create(new Supplier(i,supplier+i));
         }
